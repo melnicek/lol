@@ -7,7 +7,8 @@
 </head>
 <body>
     <input type="text" name="champion" id="champion"list="suggestions">
-    <datalist id="suggestions"><option value="Aatrox">
+    <datalist id="suggestions">
+        <option value="Aatrox">
         <option value="Ahri">
         <option value="Akali">
         <option value="Alistar">
@@ -170,23 +171,23 @@
     <script>
         document.getElementById("top").addEventListener('click', function(){
             champion = document.getElementById("champion").value
-            document.location = "https://na.op.gg/champion/"+champion+"/statistics/top"
+            document.location = "https://eune.op.gg/champion/"+champion+"/statistics/top"
         });
         document.getElementById("jungle").addEventListener('click', function(){
             champion = document.getElementById("champion").value
-            document.location = "https://na.op.gg/champion/"+champion+"/statistics/jungle"
+            document.location = "https://eune.op.gg/champion/"+champion+"/statistics/jungle"
         });
         document.getElementById("mid").addEventListener('click', function(){
             champion = document.getElementById("champion").value
-            document.location = "https://na.op.gg/champion/"+champion+"/statistics/mid"
+            document.location = "https://eune.op.gg/champion/"+champion+"/statistics/mid"
         });
         document.getElementById("adc").addEventListener('click', function(){
             champion = document.getElementById("champion").value
-            document.location = "https://na.op.gg/champion/"+champion+"/statistics/adc"
+            document.location = "https://eune.op.gg/champion/"+champion+"/statistics/adc"
         });
         document.getElementById("support").addEventListener('click', function(){
             champion = document.getElementById("champion").value
-            document.location = "https://na.op.gg/champion/"+champion+"/statistics/support"
+            document.location = "https://eune.op.gg/champion/"+champion+"/statistics/support"
         });
     </script>
 </body>
